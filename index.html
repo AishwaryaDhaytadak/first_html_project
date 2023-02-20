@@ -2,87 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aishwarya's Personal Site</title>
-    <style>
-      img {
-        width: 100%;   <!-- This style sets the width of all images to 100%: -->
-      }  
-    </style>
+    <title>Aishwarya D</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico?v=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
-    
-    <table cellspacing="20">
-      <tr>
-        <td><img src="images/sunflower.png" alt="Image of Sunflowers" style="width:200px;height:200px;"> <!--  The first image uses the style attribute to set the width to 300 pixels, this will not be overridden by the style in the head section:--></td>
-            <!-- <img src="images/Dog.jpg" alt="dog pic" width="500" height="600">  <!-- The second image uses the width attribute (set to 500 pixels), but the style in the head section overrides it, and sets the width to 100%-->
-        <td>
-          <h1> Aishwarya Dhaytadak</h1>  
-          <p><strong><em>I am Dedicated,Organised,Enthusiastic kind of personality.</em></strong></p>
-          <p><b>I like to sing songs. I love to paint in my free time.</b></p>
-        </td>
-      </tr>
-    </table>
+    <div class="top">
+        <img class="top-cloud" src="images/clouds.webp" alt="cloud">
+        <h1>I am Aishwarya</h1>
+        <h2>A Programmer</h2>
+        <img  class="bottom-cloud" src="images/clouds.webp" alt="cloud">
+        <img class ="doggo" src="images/Doggo.gif" alt="mountain">
+    </div>
 
-    <hr size="3" noshade>
     
-    <h3>Education</h3>
-        <ul>
-            <li>PSBA English School </li>
-            <li>SKNCOE College</li>
-        </ul>
-        <hr size="3" noshade>
-    <h3> Work Experience</h3>
-    <table cellspacing="5">
-    <thead> 
-      <tr>
-        <th>Time</th>  <!-- only this and next line can also be written without head tag, but for better arrangement and future changes, thead is preffered-->
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>      
-      <tr>
-        <td>2014-2017</td>
-        <td>UG College</td>
-      </tr>
-      <tr>
-        <td>2017-2021</td>
-        <td>Graduation College</td>
-      </tr>
-      <tr>
-        <td>2021</td>
-        <td>Job</td>
-      </tr>
-    </tbody>
-    </table>
-    <hr size="3" noshade>
+        <div class="middle-container">
+            <div class="profile">
+              <img src="images/puppy.png" alt="puppy pic" style="height: 200px;width: 200px;">
+              <h2>Hello.</h2>
+              <p class="intro">I am a Web Developer.I am a BE graduate.I💗Chai and Food.</p>
+            </div>
+            <hr>
+            <div class="skills">
+              <h2>My Skills.</h2>
+              <div class="skill-row">
+                <img class="code-img" src="images/coding.webp" alt="coding gif">
+                <h3>Design & Development</h3>
+                <p class="code-skill-description">I started learning code when I realised I have a sense of styling which can be used in designing pages.Over the years I knew what exactly I want to do.</p>
+              </div>
+              <div class="skill-row">
+                <img class="paint-img" src="images/painting.webp" alt="">
+                <h3>Painting in free time. </h3>
+                <p class="paint-skill-description">But my best skill is actually in painting walls. I can paint for hours and not feel tired at all.
+                 I also tend to love and vibe to good music. </p>
+              </div>
+            </div>
+            <hr>
+            <div class="contact-me">
+              <h2>Get In Touch</h2>
+              <h3>If you love painting and music as much as I do.</h3>
+              <p class="contact-message">Love music as much as I do? Let's talk about how awesome music is! We can code while we listen to music! </p>
+              <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+            </div>
+          </div>
+          <div class="bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+            <a class="footer-link" href="https://twitter.com/">Twitter</a>
+            <p class="copyright">© Aishwarya Dhaytadak.</p>
+          </div>
     
-    <h3>Skills</h3>
-    <table cellspacing="10">
-      <tbody>
-        <tr>
-          <td>
-          <table>
-            <tr>
-              <td>Java</td>
-              <td>⭐⭐⭐</td>
-              <td>Piano</td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Python</td>
-              <td>⭐⭐</td>
-              <td>Painting</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-          </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <hr size="3" noshade>    
-    <a href="hobbies.html" target="_blank">Hobbies</a>
-    <br>
-    <a href="contact.html" target="_blank">Contact Me</a>
 </body>
 </html>

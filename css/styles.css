@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    text-align: center; /* for aligning all the text in center*/
+    /*font-family:verdana, sans-serif;*/
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: 'Merriweather', serif;
+    /*font-size:300%;*/ /*this is the parent setting that we are talking about in below font sizing of h1 and h2*/
+    color: #40514E;
+    background-color:#E3DFFD;
+}
+h1{
+    margin: 50px auto 0 auto;
+    /*
+    width: 10%; /* when this is applied you will have to use this next line after this 
+    and we'll have to comment the line above this line*/
+   /* margin: 0 auto 0 auto; /* OR 0 auto(0-top bottom auto-left right)*/
+   /*font-family: 'Sacramento', cursive;*/
+   font-family: 'Kaushan Script', cursive;
+   font-size:5.625rem; /*RECOMMENDED*//*root em ignores all the settings of parent font-size and set it to this relative root size */
+   /* font-size:5.625em; /*for dynamic sizing---> m in em is the width of M...1em=16px=100% -- 90px=5.625em
+    major drawback of this--> when size in body is specified then this will adjust relatively and can
+    result in weird font sizing which is difficult to debug--> so use "rem"*/    
+    /*font-size:562.5%; /* 100%=16px so 90px/16=562.5%--drawback-static change so this wont be affected if the appearance setting is changed*/
+    /*font-size:90px; drawback--for static sizing but this wont be affected if the appearance setting is changed*/
+    color:  #674188; 
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:2.5rem; 
+    margin-top: 0;
+    color:#674188;
+    font-weight: normal;
+    line-height: 2;
+    /*padding-bottom: 10px;*/
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#A084DC;
+}
+a{
+    font-family: 'montserrat',sans-serif;
+    color:#674188;
+    margin:10px 20px;
+    text-decoration:none;
+}
+a:hover{
+    color:#E5D1FA;
+}
+p{
+    line-height: 2;
+}
+hr{
+    border:dotted #A084DC 6px;
+    border-bottom: none;
+    width: 5%; /*in percent so that it scales with change in window size*/
+    margin: 50px auto;
+    
+}
+.top{
+    padding-top: 100px;
+    position: relative;
+    background-color:  #BFACE2;
+}
+.top-cloud{
+    position:absolute;
+    width:15%;
+    top: 0px;
+    right:300px;
+}
+.bottom-cloud{
+    width:15%;
+    position:absolute;
+    left:250px;
+    bottom: 300px;
+}
+.doggo{
+    width:24%;
+}
+.middle-container{
+    margin: 100px 0;
+}
+.bottom-container{
+    background-color:  #BFACE2;
+    padding:50px 0 20px;
+}
+
+.intro{
+    width:30%;
+    margin: auto;
+}
+.skill-row{
+    width:50%;
+    margin:50px auto 100px auto;
+    text-align: left;
+    
+}
+.code-img{
+    width:25%;
+    float:left;
+    margin-right: 30px;
+}
+.paint-img{
+    width:25%;
+    float:right;
+    margin-left: 30px;
+}
+.contact-message{
+    width:40%;
+    margin:40px auto 60px;
+}
+.copyright{
+    color:#E5D1FA;
+    font-size:0.75rem;
+    padding:20px 0px;
+}
+.btn {
+    background: #645CBB;
+    background-image: -webkit-linear-gradient(top, #645CBB, #A084DC);
+    background-image: -moz-linear-gradient(top, #645CBB, #A084DC);
+    background-image: -ms-linear-gradient(top, #645CBB, #A084DC);
+    background-image: -o-linear-gradient(top, #645CBB, #A084DC);
+    background-image: linear-gradient(to bottom, #645CBB, #A084DC);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #BFACE2;
+    background-image: -webkit-linear-gradient(top, #BFACE2, #EBC7E6);
+    background-image: -moz-linear-gradient(top, #BFACE2, #EBC7E6);
+    background-image: -ms-linear-gradient(top, #BFACE2, #EBC7E6);
+    background-image: -o-linear-gradient(top, #BFACE2, #EBC7E6);
+    background-image: linear-gradient(to bottom, #BFACE2, #EBC7E6);
+    text-decoration: none;
+  }
+/*
+.code-skill-description{
+    clear:left;
+}
+.paint-skill-description{
+    clear:right;
+}*/
